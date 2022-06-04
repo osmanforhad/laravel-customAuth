@@ -4,7 +4,7 @@
         <div class="col-4"></div>
         <div class="col-4 card mt-3 p-4">
             <h4 class="text-center">Login here</h4>
-            <form method="POST" action="#">
+            <form method="POST" action="{{ route('login') }}">
                 @csrf
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
